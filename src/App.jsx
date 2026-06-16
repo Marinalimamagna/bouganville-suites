@@ -24,7 +24,7 @@ function App() {
 
   return (
     <>
-      {/* BOTÃO FLUTUANTE DO WHATSAPP COM CLASSE DE AJUSTE MOBILE */}
+      {/* BOTÃO FLUTUANTE DO WHATSAPP */}
       <a 
         href={urlMotorReservas}
         target="_blank" 
@@ -56,16 +56,21 @@ function App() {
         <FaWhatsapp />
       </a>
       
-      {/* HEADER BOUTIQUE */}
+      {/* HEADER OTIMIZADO PARA DESKTOP E MOBILE */}
       <header className="main-header">
-        <div className="container header-container">
+        <div className="container header-container" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '10px 15px' }}>
           
-          <div className="logo-identity">
-            <img src="/LOGOREDONO-.png" alt="Logo Bouganville" className="logo-img-centro" />
-            <div className="logo-titles">
-              <h1>BOUGANVILLE</h1>
-              <span>SUÍTES</span>
-            </div>
+          <div className="logo-identity" style={{ display: 'flex', alignItems: 'center', flexShrink: 0 }}>
+            <img 
+              src="/LOGOREDONO-.png" 
+              alt="Logo Bouganville" 
+              style={{ 
+                height: 'clamp(55px, 8vw, 80px)', 
+                width: 'auto', 
+                objectFit: 'contain',
+                display: 'block'
+              }} 
+            />
           </div>
 
           <button className="hamburger-btn" onClick={() => setMenuAberto(!menuAberto)} aria-label="Menu">
@@ -82,7 +87,11 @@ function App() {
             </ul>
           </nav>
 
-          <div className="header-actions"></div>
+          <div className="header-actions">
+            <button onClick={handleDirectReservation} className="btn-premium-header" style={{ padding: '10px 20px', backgroundColor: '#13382c', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold' }}>
+              RESERVAR JÁ
+            </button>
+          </div>
 
         </div>
       </header>
@@ -197,14 +206,14 @@ function App() {
                 <div className="icon-box"><FaWifi /></div>
                 <div>
                   <strong>Wi-Fi de Alta Performance</strong>
-                  <span>Conexão estável e de alta velocidade em todos os quartos, ideal para trabalho e streaming.</span>
+                  <span>Conexão estável e de alta velocidade em todos os quartos, ideal para trabalho .</span>
                 </div>
               </li>
               <li>
                 <div className="icon-box"><FaBed /></div>
                 <div>
                   <strong>Enxoval de Hotelaria</strong>
-                  <span>Roupa de cama inclusa com fios nobres e higienização rigorosa padrão boutique.</span>
+                  <span>Roupa de cama inclusa com fios nobres e higienização rigorosa.</span>
                 </div>
               </li>
               <li>
@@ -245,7 +254,7 @@ function App() {
           
           <div className="mapa-wrapper">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.520935579222!2d-43.4334336!3d-18.9967268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab5a6bc4c7c27f%3A0x6260c8b4ebd63fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717600000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.380066223594!2d-43.43126749999999!3d-19.0039987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab476947c0c17f%3A0x6260c8b4ebede2e1!2sBouganville%20Su%C3%ADtes!5e0!3m2!1spt-BR!2sbr!4v1718545000000!5m2!1spt-BR!2sbr"
               width="100%" 
               height="450" 
               style={{ border: 0, borderRadius: '4px' }} 
@@ -263,7 +272,7 @@ function App() {
         <div className="container footer-grid">
           <div className="footer-coluna-logo">
             <div className="logo-footer">
-              <img src="/LOGOREDONO-.png" alt="Logo Bouganville" className="logo-img-footer" />
+              <img src="/LOGOREDONO-.png" alt="Logo Bouganville" className="logo-img-footer" style={{ height: '60px', width: 'auto' }} />
               <h3>BOUGANVILLE</h3>
             </div>
             <p className="footer-descricao">Inovando o conceito de hotelaria urbana na região com o equilíbrio perfeito entre privacidade, requinte e sofisticação.</p>
@@ -286,9 +295,9 @@ function App() {
           <div className="footer-coluna">
             <h4>Contato</h4>
             <ul className="footer-contato-info">
-              <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG</li>
+              <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG, 35860-000</li>
               <li><FaWhatsapp style={{ marginRight: '8px', color: '#8fbd97' }} /> (31) 9638-9641</li>
-              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> </li>
+              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> reservas@bouganvillesuites.com.br</li>
             </ul>
           </div>
         </div>
