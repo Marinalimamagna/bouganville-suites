@@ -9,7 +9,6 @@ import {
   FaFacebookF, 
   FaMapMarkerAlt, 
   FaWhatsapp, 
-  FaEnvelope,
   FaBars,
   FaTimes
 } from 'react-icons/fa';
@@ -254,7 +253,7 @@ function App() {
           
           <div className="mapa-wrapper">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.380066223594!2d-43.43126749999999!3d-19.0039987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab476947c0c17f%3A0x6260c8b4ebede2e1!2sBouganville%20Su%C3%ADtes!5e0!3m2!1spt-BR!2sbr!4v1718545000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.960010992762!2d-43.4312217!3d-19.0214811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab49a747c3c67f%3A0xe260cbcaebdbe1e1!2sBouganville%20Su%C3%ADtes!5e0!3m2!1spt-BR!2sbr!4v1718545600000!5m2!1spt-BR!2sbr"
               width="100%" 
               height="450" 
               style={{ border: 0, borderRadius: '4px' }} 
@@ -297,7 +296,6 @@ function App() {
             <ul className="footer-contato-info">
               <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG, 35860-000</li>
               <li><FaWhatsapp style={{ marginRight: '8px', color: '#8fbd97' }} /> (31) 9638-9641</li>
-              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> r</li>
             </ul>
           </div>
         </div>
