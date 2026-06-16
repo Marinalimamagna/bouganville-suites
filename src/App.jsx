@@ -101,7 +101,7 @@ function App() {
         <div className="hero-overlay"></div>
         <div className="hero-content">
           <span className="hero-tag">HOSPEDAGEM EXCLUSIVA EM CONCEIÇÃO DO MATO DENTRO</span>
-          <h2><br />Sua experiência de descanso começa aqui. Sofisticação, conforto e hospitalidade em um só lugar</h2>
+          <h2><br />Sofisticação, conforto e hospitalidade em um só lugar</h2>
           <div className="hero-divider"></div>
           <p>Mais do que uma hospedagem: uma experiência de exclusividade, bem-estar e excelência em cada detalhe.</p>
           <button onClick={handleDirectReservation} className="btn-premium-hero">
@@ -297,7 +297,7 @@ function App() {
             <ul className="footer-contato-info">
               <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG, 35860-000</li>
               <li><FaWhatsapp style={{ marginRight: '8px', color: '#8fbd97' }} /> (31) 9638-9641</li>
-              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> reservas@bouganvillesuites.com.br</li>
+              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> r</li>
             </ul>
           </div>
         </div>
