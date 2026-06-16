@@ -105,8 +105,8 @@ function App() {
       <section id="sobre" className="sobre-section">
         <div className="container split-sobre">
           <div className="sobre-conteudo-texto">
-            <span className="section-subtitle">Sobre </span>
-            <h2>Sua Casa Fora de Casa </h2>
+            <span className="section-subtitle">Sobre</span>
+            <h2>Sua Casa Fora de Casa</h2>
             <div className="divider"></div>
             <div className="sobre-text">
               <p>Se você busca conforto superior, praticidade inteligente e aconchego genuíno, o <strong>Bouganville Suítes</strong> é o seu destino ideal na região. Situado estrategicamente a apenas 700 metros do centro comercial e histórico da cidade.</p>
@@ -245,7 +245,7 @@ function App() {
           
           <div className="mapa-wrapper">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.3807212470715!2d-43.430030025791784!3d-19.00293690947623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDAwJzEwLjYiUyA0M8KwMjUnMzkuMyJX!5e0!3m2!1spt-BR!2sbr!4v1717424000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.7371587328974!2d-43.4309485!3d-19.0313175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab026b48c3c27f%3A0x8260c8b4ebd63fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717430000000!5m2!1spt-BR!2sbr"
               width="100%" 
               height="450" 
               style={{ border: 0, borderRadius: '4px' }} 
@@ -286,9 +286,9 @@ function App() {
           <div className="footer-coluna">
             <h4>Contato</h4>
             <ul className="footer-contato-info">
-              <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> Bairro Jardim Bouganville, Conceição do Mato Dentro - MG</li>
+              <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG</li>
               <li><FaWhatsapp style={{ marginRight: '8px', color: '#8fbd97' }} /> (31) 9638-9641</li>
-              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /></li>
+              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> reservas@bouganvillesuites.com.br</li>
             </ul>
           </div>
         </div>
