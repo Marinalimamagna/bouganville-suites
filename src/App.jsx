@@ -245,7 +245,7 @@ function App() {
           
           <div className="mapa-wrapper">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.7371587328974!2d-43.4309485!3d-19.0313175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab026b48c3c27f%3A0x8260c8b4ebd63fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717430000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.392942475147!2d-43.43003029999999!3d-19.0023614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab366748c7727f%3A0x6260c8b4ebee3fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717610000000!5m2!1spt-BR!2sbr"
               width="100%" 
               height="450" 
               style={{ border: 0, borderRadius: '4px' }} 
