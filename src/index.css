@@ -93,8 +93,8 @@ h1, h2, h3, h4 {
 }
 
 .logo-img-centro {
-  width: 55px;
-  height: 55px;
+  width: 75px;
+  height: 75px;
   object-fit: contain; 
   border-radius: 50%;
   display: block;

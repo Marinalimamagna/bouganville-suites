@@ -197,14 +197,14 @@ function App() {
                 <div className="icon-box"><FaWifi /></div>
                 <div>
                   <strong>Wi-Fi de Alta Performance</strong>
-                  <span>Conexão estável e de alta velocidade em todos os quartos, ideal para trabalho .</span>
+                  <span>Conexão estável e de alta velocidade em todos os quartos, ideal para trabalho e streaming.</span>
                 </div>
               </li>
               <li>
                 <div className="icon-box"><FaBed /></div>
                 <div>
                   <strong>Enxoval de Hotelaria</strong>
-                  <span>Roupa de cama inclusa com fios nobres e higienização rigorosa.</span>
+                  <span>Roupa de cama inclusa com fios nobres e higienização rigorosa padrão boutique.</span>
                 </div>
               </li>
               <li>
@@ -245,14 +245,14 @@ function App() {
           
           <div className="mapa-wrapper">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.392942475147!2d-43.43003029999999!3d-19.0023614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab366748c7727f%3A0x6260c8b4ebee3fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717610000000!5m2!1spt-BR!2sbr"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3774.520935579222!2d-43.4334336!3d-18.9967268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xab5a6bc4c7c27f%3A0x6260c8b4ebd63fe1!2sBOUGANVILLE%20SU%C3%8DTES!5e0!3m2!1spt-BR!2sbr!4v1717600000000!5m2!1spt-BR!2sbr"
               width="100%" 
               height="450" 
               style={{ border: 0, borderRadius: '4px' }} 
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Mapa Bouganville Suítes"
+              title="Mapa Oficial Bouganville Suítes"
             ></iframe>
           </div>
         </div>
@@ -288,7 +288,7 @@ function App() {
             <ul className="footer-contato-info">
               <li><FaMapMarkerAlt style={{ marginRight: '8px', color: '#8fbd97' }} /> R. 4, 654 - Jardim Bouganville, Conceição do Mato Dentro - MG</li>
               <li><FaWhatsapp style={{ marginRight: '8px', color: '#8fbd97' }} /> (31) 9638-9641</li>
-              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> reservas@bouganvillesuites.com.br</li>
+              <li><FaEnvelope style={{ marginRight: '8px', color: '#8fbd97' }} /> </li>
             </ul>
           </div>
         </div>
